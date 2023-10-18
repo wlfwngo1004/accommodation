@@ -12,7 +12,7 @@
 					<div class="header-top-right">
 						<ul>
 							<li class="header-top-contact">
-                            	<a href="#">회원가입</a>
+                            	<a href="member/regesit">회원가입</a>
                             </li>
 							<li class="header-top-contact">
 								<a href="#">로그인</a>

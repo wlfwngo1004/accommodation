@@ -12,7 +12,7 @@ public class AccommodationController {
 
     @GetMapping("/acList")
     public String acList(){
-        log.info("acList()호출");
+        log.info("acList()호출DD");
         return "accommodation/accommodationList";
     }
 }

@@ -10,7 +10,7 @@
 								&copy;copyright. designed and developed by <a href="https://www.themesine.com/">themesine</a>
 							</p><!--/p-->
 							<p>
-							    대표자 : 전우영 & 김승기 | 책임자 : 홍길동
+							    대표자 : 전우영 & 김승기 | 책임자 : 홍길동&수정
 							</p>
 							<p>
 							    주소 : 서울특별시 중랑구 면목동 우승빌딩 4층

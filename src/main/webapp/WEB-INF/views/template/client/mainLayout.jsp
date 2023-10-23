@@ -16,38 +16,38 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
         <!-- title of site -->
-        <title>요기오때</title>
+        <title><tiles:getAsString name="title"/></title>
 
         <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+		<link rel="shortcut icon" type="image/icon" href="/resources/assets/logo/favicon.png"/>
 
         <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css">
 
         <!--linear icon css-->
-		<link rel="stylesheet" href="assets/css/linearicons.css">
+		<link rel="stylesheet" href="/resources/assets/css/linearicons.css">
 
 		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="/resources/assets/css/animate.css">
 
 		<!--flaticon.css-->
-        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="/resources/assets/css/flaticon.css">
 
 		<!--slick.css-->
-        <link rel="stylesheet" href="assets/css/slick.css">
-		<link rel="stylesheet" href="assets/css/slick-theme.css">
+        <link rel="stylesheet" href="/resources/assets/css/slick.css">
+		<link rel="stylesheet" href="/resources/assets/css/slick-theme.css">
 
         <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css">
 
 		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >
+		<link rel="stylesheet" href="/resources/assets/css/bootsnav.css" >
 
         <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="/resources/assets/css/style.css">
 
         <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="/resources/assets/css/responsive.css">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -61,25 +61,25 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
         <!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="/resources/assets/js/bootstrap.min.js"></script>
 
         <!-- bootsnav js -->
-        <script src="assets/js/bootsnav.js"></script>
+        <script src="/resources/assets/js/bootsnav.js"></script>
 
         <!--feather.min.js-->
-        <script  src="assets/js/feather.min.js"></script>
+        <script  src="/resources/assets/js/feather.min.js"></script>
 
         <!-- counter js -->
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
+        <script src="/resources/assets/js/jquery.counterup.min.js"></script>
+        <script src="/resources/assets/js/waypoints.min.js"></script>
 
         <!--slick.min.js-->
-        <script src="assets/js/slick.min.js"></script>
+        <script src="/resources/assets/js/slick.min.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
         <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
+        <script src="/resources/assets/js/custom.js"></script>
 
         <style>
              #header-custom {
@@ -186,6 +186,6 @@
 
         		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-                		<script src="assets/js/jquery.js"></script>
+                		<script src="/resources/assets/js/jquery.js"></script>
     </body>
 </html>

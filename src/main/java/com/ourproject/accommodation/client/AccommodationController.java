@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/ac/*")
+@RequestMapping("/accommodation/*")
 @Slf4j
 public class AccommodationController {
 
     @GetMapping("/accommodationList")
     public String acList(){
         log.info("acList()호출DD");
-        return "template/client/contentLayout";
+        return "accommodation/accommodationList";
     }
 }

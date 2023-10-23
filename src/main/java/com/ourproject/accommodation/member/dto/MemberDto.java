@@ -1,4 +1,4 @@
-package com.ourproject.accommodation.dto;
+package com.ourproject.accommodation.member.dto;
 
 import lombok.Data;
 

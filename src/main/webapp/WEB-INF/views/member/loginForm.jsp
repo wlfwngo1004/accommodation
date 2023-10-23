@@ -52,7 +52,7 @@ a {
   <input type="password" name="m_pwd"><br>
   <button type="submit">로그인</button><br>
   <br>
-  <a class="kakao" href="https://kauth.kakao.com/oauth/authorize?client_id=REST_API키&redirect_uri=REDIRECT_URI&response_type=code">
+  <a class="kakao" href="https://kauth.kakao.com/oauth/authorize?client_id=cdda19f737c3c3ab653132a2289a0505&redirect_uri=http://localhost:8080/oauth/kakaoLogin&response_type=code">
     <!-- REST_API키 및 REDIRECT_URI는 본인걸로 수정하세요 -->
 
      <div class="kakao_i"></div>

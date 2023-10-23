@@ -7,4 +7,5 @@
         <put-attribute name="footer" value="/WEB-INF/views/template/client/footer.jsp" />
     </definition>
 
+
 </tiles-definitions>

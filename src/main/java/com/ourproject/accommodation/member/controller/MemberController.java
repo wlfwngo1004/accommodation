@@ -1,5 +1,6 @@
-package com.ourproject.accommodation.memberController;
+package com.ourproject.accommodation.member.controller;
 
+import com.ourproject.accommodation.member.dto.MemberDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,9 +19,15 @@ public class MemberController {
     }
 
     @PostMapping("/regist")
-    public String regist(){
+    public String regist(MemberDto memberDto) {
         log.info("POST 회원가입");
+        log.info("memberDto" + memberDto);
         return "";
     }
 
+    @GetMapping("/loginForm")
+    public String loginForm(){
+        log.info("로그인 폼 호출");
+        return "member/loginForm";
+    }
 }

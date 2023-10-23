@@ -21,6 +21,7 @@
         <lable for="m_mail">이메일</lable><br>
             <input type="text" name="m_mail"><br>
         <lable for="m_addr">주소</lable><br>
+            <input type="hidden" name="m_addr" id="m_addr">
             <input type="text" id="sample6_postcode" placeholder="우편번호">
             <input type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기"><br>
             <input type="text" id="sample6_address" placeholder="주소"><br>
@@ -76,6 +77,9 @@
                 document.getElementById("sample6_address").value = addr;
                 // 커서를 상세주소 필드로 이동한다.
                 document.getElementById("sample6_detailAddress").focus();
+
+
+
             }
         }).open();
     }

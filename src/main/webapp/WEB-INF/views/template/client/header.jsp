@@ -15,7 +15,7 @@
                             	<a href="member/registForm">회원가입</a>
                             </li>
 							<li class="header-top-contact">
-								<a href="#">로그인</a>
+								<a href="member/loginForm">로그인</a>
 							</li>
 							<li class="header-top-contact">
 								<a href="#">로그아웃</a>

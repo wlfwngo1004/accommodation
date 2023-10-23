@@ -13,6 +13,8 @@
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
         <!-- title of site -->
         <title>Directory Landing Page</title>
 
@@ -87,6 +89,7 @@
                 height: 70px;
                 width: 940px;
              }
+
         </style>
 
     </head>
@@ -105,7 +108,7 @@
         				<div class="welcome-hero-serch-box">
         					<div class="welcome-hero-form">
         						<form action="index.html">
-                                	<input type="text" id="search-custom" placeholder="Ex: palce, resturent, food, automobile" />
+                                	<input type="text" id="search-custom" placeholder="지역" />
                                 </form>
         					</div>
         					<div class="welcome-hero-serch">
@@ -127,48 +130,48 @@
         						<li>
         							<div class="single-list-topics-content">
         								<div class="single-list-topics-icon">
-        									<i class="flaticon-restaurant"></i>
+        									<i class="fas fa-building fa-3x"></i>
         								</div>
-        								<h2><a href="#">resturent</a></h2>
-        								<p>150 listings</p>
+        								<h2><a href="#">Hotels</a></h2>
+        								<p>호텔</p>
         							</div>
         						</li>
         						<li>
         							<div class="single-list-topics-content">
         								<div class="single-list-topics-icon">
-        									<i class="flaticon-travel"></i>
+        									<i class="far fa-building fa-3x"></i>
         								</div>
-        								<h2><a href="#">destination</a></h2>
-        								<p>214 listings</p>
+        								<h2><a href="#">Motels</a></h2>
+        								<p>모텔</p>
         							</div>
         						</li>
         						<li>
         							<div class="single-list-topics-content">
         								<div class="single-list-topics-icon">
-        									<i class="flaticon-building"></i>
+        									<i class="fas fa-store-alt fa-3x"></i>
         								</div>
-        								<h2><a href="#">hotels</a></h2>
-        								<p>185 listings</p>
+        								<h2><a href="#">Guest house</a></h2>
+        								<p>게스트하우스</p>
         							</div>
         						</li>
         						<li>
         							<div class="single-list-topics-content">
         								<div class="single-list-topics-icon">
-        									<i class="flaticon-pills"></i>
+        									<i class="fas fa-mountain fa-3x"></i>
         								</div>
-        								<h2><a href="#">healthcaree</a></h2>
-        								<p>200 listings</p>
+        								<h2><a href="#">Pension</a></h2>
+        								<p>펜션</p>
         							</div>
         						</li>
-        						<li>
-        							<div class="single-list-topics-content">
-        								<div class="single-list-topics-icon">
-        									<i class="flaticon-transport"></i>
-        								</div>
-        								<h2><a href="#">automotion</a></h2>
-        								<p>120 listings</p>
-        							</div>
-        						</li>
+                                <li>
+                                    <div class="single-list-topics-content">
+                                        <div class="single-list-topics-icon">
+                                            <i class="fas fa-campground fa-3x"></i>
+                                        </div>
+                                        <h2><a href="#">Camping</a></h2>
+                                        <p>캠핑장</p>
+                                        </div>
+                                </li>
         					</ul>
         				</div>
         			</div><!--/.container-->

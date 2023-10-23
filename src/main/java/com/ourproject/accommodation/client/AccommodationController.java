@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Slf4j
 public class AccommodationController {
 
-    @GetMapping("/acList")
+    @GetMapping("/accommodationList")
     public String acList(){
         log.info("acList()호출DD");
-        return "accommodation/accommodationList";
+        return "template/client/contentLayout";
     }
 }

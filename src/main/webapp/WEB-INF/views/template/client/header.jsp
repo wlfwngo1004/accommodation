@@ -50,7 +50,7 @@
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 			                    <li class=" scroll active"><a href="/">홈</a></li>
-			                    <li class="scroll"><a href="#works">숙소예약</a></li>
+			                    <li class="scroll"><a href="ac/accommodationList">숙소예약</a></li>
 			                    <li class="scroll"><a href="#explore">관광지추천</a></li>
 			                    <li class="scroll"><a href="#reviews">예약내역</a></li>
 			                    <li class="scroll"><a href="#blog">자유게시판</a></li>

@@ -6,29 +6,46 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
+
     <title>회원가입</title>
   </head>
   <body>
-  <h1>여기오때 회원가입</h1>
-  <hr>
-    <form action="/member/regist" method="post">
-        <lable for="m_id">아이디</lable><br>
-            <input type="text" name="m_id" id="m_id"><br>
-        <lable for="m_pwd">비밀번호</lable><br>
-            <input type="password" name="m_pwd"><br>
-        <lable for="m_name">이름</lable><br>
-            <input type="text" name="m_name"><br>
-        <lable for="m_mail">이메일</lable><br>
-            <input type="text" name="m_mail"><br>
-        <lable for="m_addr">주소</lable><br>
+      <div class="container">
+        <h1 class="mt-5">회원가입</h1>
+        <hr>
+        <form action="/member/regist" method="post">
+          <div class="form-group">
+            <label for="m_id">아이디</label>
+            <input type="text" class="form-control col-6" name="m_id" id="m_id">
+          </div>
+          <div class="form-group">
+            <label for="m_pwd">비밀번호</label>
+            <input type="password" class="form-control col-6" name="m_pwd">
+          </div>
+          <div class="form-group">
+            <label for="m_name">이름</label>
+            <input type="text" class="form-control col-6" name="m_name">
+          </div>
+          <div class="form-group">
+            <label for="m_mail">이메일</label>
+            <input type="text" class="form-control col-6" name="m_mail">
+          </div>
+          <div class="form-group">
+            <label for="m_addr">주소</label>
             <input type="hidden" name="m_addr" id="m_addr">
-            <input type="text" id="sample6_postcode" placeholder="우편번호">
-            <input type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기"><br>
-            <input type="text" id="sample6_address" placeholder="주소"><br>
-            <input type="text" id="sample6_detailAddress" placeholder="상세주소">
-            <input type="hidden" id="sample6_extraAddress" placeholder="참고항목"><br>
-        <button type="submit">회원가입</button>
-  </body>
+            <div class="form-group form-inline">
+              <input type="text" class="form-control col-4" id="sample6_postcode" placeholder="우편번호">
+              <input type="button" class="btn btn-primary" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">
+            </div>
+
+            <input type="text" class="form-control col-6" id="sample6_address" placeholder="주소"><br>
+            <input type="text" class="form-control col-6" id="sample6_detailAddress" placeholder="상세주소">
+            <input type="hidden" class="form-control col-6" id="sample6_extraAddress" placeholder="참고항목"><br>
+          </div>
+          <button type="submit" class="btn btn-primary">회원가입</button>
+        </form>
+      </div>
+    </body>
 </html>
 
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>

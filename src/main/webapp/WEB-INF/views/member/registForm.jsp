@@ -6,7 +6,14 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-
+    <style>
+    .fixed-width-input{
+        width: 50%;
+    }
+    .btn-block{
+        width: 50%;
+    }
+    </style>
     <title>회원가입</title>
   </head>
   <body>
@@ -16,33 +23,35 @@
         <form action="/member/regist" method="post">
           <div class="form-group">
             <label for="m_id">아이디</label>
-            <input type="text" class="form-control col-6" name="m_id" id="m_id">
+            <input type="text" class="form-control fixed-width-input" name="m_id" id="m_id">
           </div>
           <div class="form-group">
             <label for="m_pwd">비밀번호</label>
-            <input type="password" class="form-control col-6" name="m_pwd">
+            <input type="password" class="form-control fixed-width-input" name="m_pwd">
           </div>
           <div class="form-group">
             <label for="m_name">이름</label>
-            <input type="text" class="form-control col-6" name="m_name">
+            <input type="text" class="form-control fixed-width-input" name="m_name">
           </div>
           <div class="form-group">
             <label for="m_mail">이메일</label>
-            <input type="text" class="form-control col-6" name="m_mail">
+            <input type="text" class="form-control fixed-width-input" name="m_mail">
           </div>
           <div class="form-group">
             <label for="m_addr">주소</label>
             <input type="hidden" name="m_addr" id="m_addr">
             <div class="form-group form-inline">
-              <input type="text" class="form-control col-4" id="sample6_postcode" placeholder="우편번호">
-              <input type="button" class="btn btn-primary" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">
+              <input type="text" class="form-control" id="sample6_postcode" placeholder="우편번호">
+              <input type="button" class="btn btn-outline-light" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">
             </div>
 
-            <input type="text" class="form-control col-6" id="sample6_address" placeholder="주소"><br>
-            <input type="text" class="form-control col-6" id="sample6_detailAddress" placeholder="상세주소">
-            <input type="hidden" class="form-control col-6" id="sample6_extraAddress" placeholder="참고항목"><br>
+            <input type="text" class="form-control fixed-width-input" id="sample6_address" placeholder="주소"><br>
+            <input type="text" class="form-control fixed-width-input" id="sample6_detailAddress" placeholder="상세주소">
+            <input type="hidden" class="form-control fixed-width-input" id="sample6_extraAddress" placeholder="참고항목"><br>
           </div>
-          <button type="submit" class="btn btn-primary">회원가입</button>
+          <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block">회원가입</button>
+          </div>
         </form>
       </div>
     </body>

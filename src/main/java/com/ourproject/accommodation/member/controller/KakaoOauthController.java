@@ -1,7 +1,6 @@
 package com.ourproject.accommodation.member.controller;
 
 import com.ourproject.accommodation.member.service.KakaoOauthService;
-import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,12 +10,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("/oauth/*")
-@AllArgsConstructor
 @Slf4j
 public class KakaoOauthController {
 
     @Autowired
     private final KakaoOauthService kakaoOauthService;
+
+    public KakaoOauthController(KakaoOauthService kakaoOauthService) {
+        this.kakaoOauthService = kakaoOauthService;
+    }
 
     @GetMapping("/kakaoLogin")
     public String kakaoLogin(@RequestParam("code") String code)  {

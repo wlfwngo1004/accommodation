@@ -32,22 +32,30 @@
 a {
    text-decoration: none;
 }
+.fixed-width-input{
+   width: 35%;
+}
+.btn-block{
+   width: 35%;
+}
+
     </style>
 </head>
-<h1>여기오때 로그인</h1>
+
 <body>
+    <div class="container">
+        <h1>로그인</h1>
+        <hr>
+        <label for="m_id">아이디</label><br>
+        <input type="text" class="form-control fixed-width-input" name="m_id"><br>
+        <label for="m_pwd">비밀번호</label><br>
+        <input type="password" class="form-control fixed-width-input" name="m_pwd"><br>
+        <button type="submit" class="btn btn-primary btn-block">로그인</button><br>
 
-  <hr>
-  <lable for="m_id">아이디</lable><br>
-  <input type="text" name="m_id"><br>
-  <lable for="m_pwd">비밀번호</lable><br>
-  <input type="password" name="m_pwd"><br>
-  <button type="submit">로그인</button><br>
-  <br>
-  <a class="kakao" href="https://kauth.kakao.com/oauth/authorize?client_id=cdda19f737c3c3ab653132a2289a0505&redirect_uri=http://localhost:8080/oauth/kakaoLogin&response_type=code">
-    <!-- REST_API키 및 REDIRECT_URI는 본인걸로 수정하세요 -->
-
-     <div class="kakao_i"></div>
-  </a>
+        <a class="kakao" href="https://kauth.kakao.com/oauth/authorize?client_id=cdda19f737c3c3ab653132a2289a0505&redirect_uri=http://localhost:8080/oauth/kakaoLogin&response_type=code">
+            <!-- REST_API키 및 REDIRECT_URI는 본인걸로 수정하세요 -->
+            <div class="kakao_i"></div>
+        </a>
+    </div>
 </body>
 </html>
